@@ -11,6 +11,7 @@ import { ChildtoparentComponent } from './lessons/childtoparent/childtoparent.co
 import { ChildComponent } from './lessons/childtoparent/child/child.component';
 import { TwowaybindingsComponent } from './lessons/twowaybindings/twowaybindings.component';
 import { UsdToInrPipe } from './lessons/pipes/usdToInr/usd-to-inr.pipe';
+import { TemplateDrivenFormsComponent } from './lessons/forms/template-driven-forms/template-driven-forms.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { UsdToInrPipe } from './lessons/pipes/usdToInr/usd-to-inr.pipe';
     ChildtoparentComponent,
     ChildComponent,
     TwowaybindingsComponent,
-    UsdToInrPipe
+    UsdToInrPipe,
+    TemplateDrivenFormsComponent
   ],
   imports: [
     BrowserModule,
