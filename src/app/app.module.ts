@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { FormsComponent } from './lessons/forms/forms.component';
 import { BasicFormsComponent } from './lessons/forms/basic-forms/basic-forms.component';
 import { TodoAppComponent } from './projects/todo-app/todo-app.component';
+import { ChildtoparentComponent } from './lessons/childtoparent/childtoparent.component';
+import { ChildComponent } from './lessons/childtoparent/child/child.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { TodoAppComponent } from './projects/todo-app/todo-app.component';
     AppComponent,
     FormsComponent,
     BasicFormsComponent,
-    TodoAppComponent
+    TodoAppComponent,
+    ChildtoparentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
