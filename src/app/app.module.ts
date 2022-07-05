@@ -6,13 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsComponent } from './lessons/forms/forms.component';
 import { BasicFormsComponent } from './lessons/forms/basic-forms/basic-forms.component';
+import { TodoAppComponent } from './projects/todo-app/todo-app.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FormsComponent,
-    BasicFormsComponent
+    BasicFormsComponent,
+    TodoAppComponent
   ],
   imports: [
     BrowserModule,

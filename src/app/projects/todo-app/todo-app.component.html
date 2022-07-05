@@ -1,0 +1,12 @@
+<input type="text" (keyup.enter)="addTask(task.value)"  placeholder="Enter a task" #task>
+<br><br>
+<button (click)="addTask(task.value)" >Add Task</button>
+
+<table>
+    <tr *ngFor="let todo of todoList" [ngClass]="todo.isCompleted === true ? 'completed' : '' ">
+        <td> <button (click)="compltedTask(todo.id)"> Done </button></td>
+        <td>{{todo.id}}</td>
+        <td>{{todo.name}}</td>
+        <td><button (click)="removeTask(todo.id)">X</button></td>
+    </tr>
+</table>
