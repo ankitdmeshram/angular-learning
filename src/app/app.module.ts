@@ -9,6 +9,7 @@ import { BasicFormsComponent } from './lessons/forms/basic-forms/basic-forms.com
 import { TodoAppComponent } from './projects/todo-app/todo-app.component';
 import { ChildtoparentComponent } from './lessons/childtoparent/childtoparent.component';
 import { ChildComponent } from './lessons/childtoparent/child/child.component';
+import { TwowaybindingsComponent } from './lessons/twowaybindings/twowaybindings.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ChildComponent } from './lessons/childtoparent/child/child.component';
     BasicFormsComponent,
     TodoAppComponent,
     ChildtoparentComponent,
-    ChildComponent
+    ChildComponent,
+    TwowaybindingsComponent
   ],
   imports: [
     BrowserModule,
