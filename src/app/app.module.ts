@@ -10,6 +10,7 @@ import { TodoAppComponent } from './projects/todo-app/todo-app.component';
 import { ChildtoparentComponent } from './lessons/childtoparent/childtoparent.component';
 import { ChildComponent } from './lessons/childtoparent/child/child.component';
 import { TwowaybindingsComponent } from './lessons/twowaybindings/twowaybindings.component';
+import { UsdToInrPipe } from './lessons/pipes/usdToInr/usd-to-inr.pipe';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { TwowaybindingsComponent } from './lessons/twowaybindings/twowaybindings
     TodoAppComponent,
     ChildtoparentComponent,
     ChildComponent,
-    TwowaybindingsComponent
+    TwowaybindingsComponent,
+    UsdToInrPipe
   ],
   imports: [
     BrowserModule,

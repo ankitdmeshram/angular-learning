@@ -7,4 +7,12 @@ import { NgForm } from '@angular/forms';
 })
 export class AppComponent {
 
+  
+  title = "hello world"
+
+  user = {
+    name: 'ankit',
+    age: 20
+  }
+
 }
